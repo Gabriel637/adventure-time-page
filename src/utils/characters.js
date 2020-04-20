@@ -40,7 +40,7 @@ export const characters = [
     sex: "Male",
     profile: jakeProfile,
     bio: `Jake was conceived when his father, Joshua, was bitten by the shapeshifting extra-dimensional creature Warren Ampersand during a detective investigation with his wife Margaret, and was later born from a pustule on his father's head originating from the creature's bite. It is inferred that Jake's magical powers are a result of his biological relationship with Ampersand, though he is apparently unaware of the circumstances of his birth and instead believes his powers to be the result of having rolled around in a "magical mud puddle" as a pup. After his birth, Jake was raised normally by Joshua and Margaret as their son, alongside their own biological son Jermaine and their adoptive human son Finn.
-    Little has been shown in the series about Jake's subsequent childhood life with his family, though in his youth, he was known to be a successful criminal and the leader of his own gang, a position he later retired from to take part in a more respectable life as an adventurer with Finn. Around this time, he also began a romantic relationship with Lady Rainicorn, with whom he has five children—daughters Charlie, Viola, and Jake Jr., and sons T.V. and Kim Kil Whan.[5] 
+    Little has been shown in the series about Jake's subsequent childhood life with his family, though in his youth, he was known to be a successful criminal and the leader of his own gang, a position he later retired from to take part in a more respectable life as an adventurer with Finn. Around this time, he also began a romantic relationship with Lady Rainicorn, with whom he has five children—daughters Charlie, Viola, and Jake Jr., and sons T.V. and Kim Kil Whan. 
    Jake's stretchy powers enable him to modify the size, shape, and dimensions of every part of his body. Not only can he stretch and contort himself into highly specific forms, but he can also rearrange his internal organs, and teeth. In "Evicted!", he is able to shrink and move his internal organs and blood into his left thumb. Also in "Jake vs. Me-Mow", he enlarges his liver fifty-one times a dog his size, preventing him from succumbing to Me-Mow's poison. One frequent use of his powers is Key Hand, which he uses to pick locks. He also uses his arm as a bow able to accurately shoot arrows at a short distance.`
   },
   {
@@ -78,14 +78,14 @@ export const characters = [
     img: bubblegum,
     color: colors.pink,
     age: 19,
-    occupation: "Ruler of the Candy Kingdom,Scientist",
+    occupation: "Ruler of the Candy Kingdom, Scientist",
     specie: "Gum Golem",
     sex: "Female",
     profile: bubblegumProfile,
     bio: `Bubblegum is typically very kind and compassionate, having a strong sense of justice, though she shows a dark side when provoked. She is highly intelligent, being responsible for the creation of the Candy People as well as various devices including a miniature time machine. She is fluent in German and Korean, using the latter language to communicate with her friend Lady Rainicorn. Bubblegum is skeptical of magic, refusing to acknowledge it as anything except science.
     Bubblegum is highly protective of the Candy People and cares deeply for their safety, but is secretly strained by the pressures of ruling and expresses a desire for freedom. Following a near-death experience at the end of the second season, she starts to isolate herself and becomes overprotective of the Candy People, even exhibiting authoritarian tendencies temporarily in the fifth season. At the end of the sixth season, Bubblegum is deposed as ruler following an election, where she realizes she has made the Candy People too unintelligent.
     Bubblegum has light pink skin and long magenta "hair", which is actually bubblegum. Her usual outfit is a puffy-sleeved pink gown with purple trim. Among many other outfits, she often wears a lab coat during science experiments.
-    In the seventh season, Bubblegum discovers that she is an incarnation of the "Candy Elemental", the living embodiment of candy as one of the Adventure Time universe's four classical elements (fire, water, candy, and slime). As the Elemental, she can materialize various quantities of candy through her hands and communicate with past incarnations of the Elemental. When Bubblegum's elemental powers consume her in the miniseries Elements, she becomes psychically connected to all candy in the universe, and can transform others into candy, upon which they lose memory of their life prior to their transformation.`
+    In the seventh season, Bubblegum discovers that she is an incarnation of the "Candy Elemental", the living embodiment of candy as one of the Adventure Time universe's four classical elements (fire, water, candy, and slime). As the Elemental, she can materialize various quantities of candy through her hands and communicate with past incarnations of the Elemental.`
   },
   {
     name: "BMO",

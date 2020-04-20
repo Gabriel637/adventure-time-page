@@ -1,5 +1,5 @@
 import React from "react";
-import { Global, Container } from "./styles/global";
+import { Global } from "./styles/global";
 import GlobalFonts from "./utils/fonts";
 import Home from "./pages/home";
 

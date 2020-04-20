@@ -26,11 +26,11 @@ export const CardBoxStyled = styled.div`
   animation: 1.2s ${bounceAnimation};
   border-radius: 1%;
   width: ${px2vw(90, 100)};
-  height: ${px2vw(700, 768)};
+  height: ${px2vw(600, 768)};
 
   @media (min-width: 768px) {
     width: ${px2vw(600, 768)};
-    height: ${px2vw(500, 768)};
+    height: ${px2vw(400, 768)};
   }
 
   @media (min-width: 1024px) {
@@ -53,7 +53,7 @@ export const Header = styled.div`
 
 export const Title = styled.h1`
   color: ${colors.gray_light};
-  font-size: 4vh;
+  font-size: 2.7vw;
   font-family: "Comic Neue";
   font-style: italic;
   text-align: center;
@@ -61,8 +61,8 @@ export const Title = styled.h1`
 
 export const ButtonCloseStyled = styled.img`
   cursor: pointer;
-  height: 4vh;
-  width: 4vh;
+  height: 3vw;
+  width: 3vw;
 `;
 
 export const OverflowStyled = styled.div`
@@ -102,16 +102,30 @@ export const ProfileInfoBox = styled.div`
   p {
     color: ${colors.gray_light};
     font-family: "Comic Neue";
-    font-size: 2vh;
+    font-size: 1vw;
     font-style: italic;
-    margin-top: 3%;
   }
   h1 {
     color: ${colors.black2};
-    font-size: 4vh;
+    font-size: 2.3vw;
     font-family: "Comic Neue";
     font-style: italic;
     font-weight: bold;
+  }
+  @media (max-width: 768px) {
+    p {
+      color: ${colors.gray_light};
+      font-family: "Comic Neue";
+      font-size: 2vw;
+      font-style: italic;
+    }
+    h1 {
+      color: ${colors.black2};
+      font-size: 3vw;
+      font-family: "Comic Neue";
+      font-style: italic;
+      font-weight: bold;
+    }
   }
 `;
 
@@ -123,12 +137,24 @@ export const BiographyColumn = styled.div`
   flex-direction: column;
   p {
     color: ${colors.gray_light};
-    font-size: 2vh;
+    font-size: 1.1vw;
     letter-spacing: 1px;
     line-height: 1.5;
     margin: 2.5% 2% 3% 0;
     text-align: justify;
     font-family: "Comic Neue";
     font-style: italic;
+  }
+  @media (max-width: 768px) {
+    p {
+      color: ${colors.gray_light};
+      font-size: 1.75vw;
+      letter-spacing: 0;
+      line-height: 1.5;
+      margin: 2.5% 2% 3% 0;
+      text-align: justify;
+      font-family: "Comic Neue";
+      font-style: 600;
+    }
   }
 `;

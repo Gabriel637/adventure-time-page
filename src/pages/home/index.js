@@ -3,6 +3,7 @@ import logo from "../../assets/images/logo.png";
 import { characters } from "../../utils/characters.js";
 import { Carousel } from "react-responsive-carousel";
 import Modal from "../../components/Modal";
+import disableScroll from "disable-scroll";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import {
@@ -16,6 +17,7 @@ import {
 } from "./styles";
 
 export default function Home() {
+  disableScroll.on();
   const [color, setColor] = useState();
   const [selected, setSelected] = useState(0);
   const [showModal, setShowModal] = useState(false);
