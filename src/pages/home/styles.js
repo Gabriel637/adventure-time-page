@@ -85,7 +85,7 @@ export const ItemCarousel = styled.div`
 export const TextCarousel = styled.p`
   color: ${colors.red};
   font-size: 3.5vh;
-  font-family: "Adventure Time Logo";
+  font-family: "Comic Neue";
   text-align: center;
   text-decoration: underline;
   :hover {
