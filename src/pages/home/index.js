@@ -4,6 +4,7 @@ import { characters } from "../../utils/characters.js";
 import { Carousel } from "react-responsive-carousel";
 import Modal from "../../components/Modal";
 import disableScroll from "disable-scroll";
+import Loading from "../../components/Loading";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import {
@@ -18,6 +19,7 @@ import {
 
 export default function Home() {
   disableScroll.on();
+  const [loading, setLoading] = useState(true);
   const [color, setColor] = useState();
   const [selected, setSelected] = useState(0);
   const [showModal, setShowModal] = useState(false);
@@ -32,9 +34,14 @@ export default function Home() {
     }, 200);
   };
 
+  setTimeout(() => {
+    setLoading(false);
+  }, 2500);
+
   return (
     <>
       <Container color={color}>
+        <Loading show={loading} />
         <HeaderPage>
           <ImageLogo src={logo} alt="logo" />
         </HeaderPage>

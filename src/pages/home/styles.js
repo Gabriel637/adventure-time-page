@@ -40,10 +40,10 @@ export const Container = styled.div`
     `};
   display: flex;
   flex-direction: column;
-  flex: 1;
-  min-height: 1064px;
+  min-height: 768px;
   width: 100%;
   align-items: center;
+  justify-content: center;
 `;
 
 export const BoxCarousel = styled.div`

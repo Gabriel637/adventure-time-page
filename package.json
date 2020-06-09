@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
     "react-remove-scroll": "^2.2.0",
     "react-responsive-carousel": "^3.1.57",
     "react-scripts": "3.4.1",
